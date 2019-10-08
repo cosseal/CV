@@ -1,0 +1,38 @@
+html
+{
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+body
+{
+    margin: 10%;
+    padding: 0;
+    width: auto;
+    background-color: antiquewhite;
+    font-family: "Calibri", sans-serif ;
+    color: black;
+    font-size: large;
+}
+
+.heading
+{}
+
+#adresse
+{}
+
+.contenu
+{}
+
+h1
+{}
+
+ul
+{}
+
+li
+{}
+
+.liens
+{}
