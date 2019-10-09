@@ -1,41 +1,156 @@
+
 html
-{
-    margin: 0;
-    padding: 0;
-    width: auto;
-}
+ {
+     margin: 0;
+     padding: 0;
+     width: auto;
+ }
 
 body
 {
     margin: 10%;
     padding: 0;
     width: auto;
-    background-color: antiquewhite;
+    background-color: #cafd9d;
     font-family: "Calibri", sans-serif ;
     color: black;
     font-size: large;
 }
 
 .heading
-{}
+{
+    border: #b38bcc solid 3px;
+    border-radius: 3em;
+    font-family: 'Lobster', cursive;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding: 2%;
+    position: relative;
+    max-width: 1000px;
+    min-width: 350px;
+
+}
+
+#nom
+{
+    font-size: xx-large;
+    position: relative;
+    text-align: left;
+    top: 20%;
+    margin-right: 2%;
+    padding-left: 2%;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+
+}
+
+#logo
+{
+    position: relative;
+    padding-top: 2%;
+    margin-left: 6%;
+    margin-right: 7%;
+    margin-bottom: 3%;
+    max-width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+
+
+}
 
 #adresse
-{}
+{
+    position: relative;
+    margin-right: 2%;
+    padding-left: 2%;
+    margin-left: 2%;
+    font-size: large;
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+    vertical-align: middle;
+
+
+}
+
+#fonction
+{
+    position: relative;
+    margin-right: 36%;
+    margin-left: 37%;
+    font-size: xx-large;
+    font-family: "Calibri", sans-serif;
+    width: 100%;
+    color: #45afff;
+}
 
 .contenu
-{}
+{
+    padding: 4%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: #b38bcc solid 3px;
+    border-radius: 3em;
+    font-family: "Calibri", sans-serif;
+    left: 0;
+    right: 0;
+    position: relative;
+    max-width: 1000px;
+    min-width: 350px;
+}
 
 h1
-{}
+{
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #ff381a;
+    font-size: x-large;
+}
 
 h2
-{}
+{
+    text-decoration: underline;
+    color: #45afff;
+    margin-left: 9%;
+}
 
 ul
-{}
+{
+    list-style: none inside;
+    padding-right: 2%;
+    margin-left: 5%;
+}
 
-li
-{}
+.gras
+{
+    font-weight: bold;
+}
+
+.puces
+{
+    list-style-type: disc;
+    margin-left: 5%;
+
+}
 
 .liens
-{}
+{
+    border: #b38bcc solid 3px;
+    border-radius: 3em;
+    font-family: "Calibri", sans-serif;
+    padding: 5%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: relative;
+    max-width: 1000px;
+    min-width: 350px;
+
+}
