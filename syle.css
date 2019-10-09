@@ -89,7 +89,7 @@ body
 
 .contenu
 {
-    padding: 4%;
+    padding: 2%;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
@@ -151,6 +151,7 @@ ul
     position: relative;
     max-width: 1000px;
     min-width: 350px;
+    padding: 2%;
 
 }
 
