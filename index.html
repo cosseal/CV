@@ -6,12 +6,15 @@
     <link rel="stylesheet" href="syle.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+    <script src="btn cacher.js"></script>
+
 
 </head>
 <body>
 
+
 <div class="heading">
-    <span id="nom">Anneliese<br> Cosse</span>
+    <span id="moi">Anneliese<br> Cosse</span>
     <div id="logo"> <img src="developpement-web-img.png" alt="logo-developpeur"
                          title="développeur web"></div>
     <p id="adresse">Née à Chimay le 10 mai 1977<br>
@@ -23,7 +26,9 @@
 </div>
 
 <div class="contenu">
-    <h1> EXPERIENCES PROFESSIONNELLES</h1>
+    <h1 > EXPERIENCES PROFESSIONNELLES</h1>
+    <span class="bouton" id="bouton_texte" onclick="javascript:afficher_cacher('texte');">Afficher le texte</span>
+    <div id="texte" class="text">
         <ul>
             <li> <span class="gras">Depuis 2017</span> : massothérapeuthe.</li>
             <li><span class="gras">Depuis 2015</span> : indépendante en coaching de vie, accompagnement
@@ -37,6 +42,14 @@
             <li><span class="gras">1995-2002</span> : agent d'accueil (job d'étudiant) pour
                 un site touristique à Couvin.</li>
         </ul>
+    </div>
+    <script type="text/javascript">
+        //<!--
+        afficher_cacher('texte');
+        //-->
+    </script>
+
+
     <h1> FORMATIONS</h1>
         <ul>
             <li><span class="gras">2019-2020</span> : Bac+2 (en cours) - développeur web -
@@ -114,7 +127,58 @@
     <p id="position3"> <a href="https://github.com/cosseal?tab=repositories">
         <img src="Git-Logo-1788C.png" alt="Github" title="Git"></a></p>
 
+</div>
 
+<!--formulaire de contact-->
+
+<div>
+    <form method="post" action="mailto: h07w0w0f9gkuq4u@jetable.org">
+
+
+        <fieldset>
+            <legend> Formulaire de contact</legend>
+            <div>
+                <div><span id="int">Intéressé-e-s par mon profil?</span></div>
+                <div id="pos_oui">
+                    <label for="int-yes">Oui</label>
+                    <input class="radio" type="radio" name="int-yes" id="int-yes" checked="checked">
+                </div>
+                <div id="pos_non">
+                    <label  for="int-no">Non</label>
+                    <input class="radio" type="radio" name="int-yes" id="int-no">
+                </div>
+                <div>
+                    <span id="message"> Si oui, laissez-moi un message ci-dessous</span>
+                </div>
+            </div>
+            <hr>
+            <div class="form">
+                <div>
+                    <label for="nom">Nom</label>
+                    <input type="text" name ="nom" id="nom">
+                </div>
+                <div>
+                    <label for="prenom">Prénom</label>
+                    <input type="text" name="prenom" id="prenom">
+                </div>
+                <div>
+                    <label for="mail">Email</label>
+                    <input type="email" name="mail" id="mail">
+                </div>
+                <div>
+                    <label for="msg">Votre message</label>
+                    <textarea name="user_name" id="msg" ></textarea>
+                </div>
+                <div id="submit">
+                    <button type="submit">Envoyer</button>
+                </div>
+                <div id="reset">
+                    <button type="reset">Reset</button>
+                </div>
+            </div>
+        </fieldset>
+
+    </form>
 </div>
 
 

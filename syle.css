@@ -17,6 +17,7 @@ body
     font-size: large;
 }
 
+/*CV*/
 .heading
 {
     border: #b38bcc solid 3px;
@@ -32,7 +33,7 @@ body
 
 }
 
-#nom
+#moi
 {
     font-size: xx-large;
     position: relative;
@@ -87,7 +88,7 @@ body
     color: #45afff;
 }
 
-.contenu
+.contenu, .liens, fieldset
 {
     padding: 2%;
     margin-top: 5%;
@@ -101,6 +102,7 @@ body
     position: relative;
     max-width: 1000px;
     min-width: 350px;
+
 }
 
 h1
@@ -138,22 +140,6 @@ ul
 
 }
 
-.liens
-{
-    border: #b38bcc solid 3px;
-    border-radius: 3em;
-    font-family: "Calibri", sans-serif;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    position: relative;
-    max-width: 1000px;
-    min-width: 350px;
-    padding: 2%;
-
-}
 
 #position1
 {
@@ -185,3 +171,199 @@ ul
     vertical-align: middle;
 
 }
+
+/*afficher/cacher*/
+
+.bouton
+{
+    color:#0000ff;
+    font-size:24px;
+    cursor:pointer;
+}
+.bouton:hover
+{
+    text-decoration:underline;
+}
+.text
+{
+    padding:10px;
+    color:#333333;
+}
+.texte:hover
+{
+    border:1px solid #000000;
+    background:#cccccc;
+    color:#000000;
+}
+
+/* formulaire*/
+
+.form
+{
+    margin-left : 14%;
+    margin-right: 14%;
+    margin-top: 5%;
+    padding: 1%;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 2em;
+    background-color: rgba(244, 190, 209, 0.44);
+    vertical-align: center;
+}
+
+legend
+{
+    font-size: larger;
+    font-weight: bold;
+    font-family: "Calibri", sans-serif;
+    margin-left: 4%;
+}
+
+label
+{
+    display: inline-block;
+    width: 95px;
+    text-align: right;
+    margin: 2%;
+    vertical-align: top;
+    font-family: sans-serif;
+    font-weight: bolder;
+
+}
+
+#int
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    width: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: #ff381a;
+}
+
+#pos_oui
+{
+    display: inline-block;
+    position: relative;
+    margin-top: 3%;
+    margin-left: 11%;
+    width: 18%;
+    vertical-align: top;
+}
+
+#pos_non
+{
+    display: inline-block;
+    position: relative;
+    margin-top: 3%;
+    margin-left: 11%;
+    width: 18%;
+    vertical-align: top;
+}
+.radio
+{
+    display: inline-block;
+    position: relative;
+    margin: 2%;
+    width: 30%;
+    text-align: center;
+
+}
+#int-yes
+{
+    display: inline-block;
+    position: relative;
+    margin: 2%;
+    width: 25%;
+    text-align: center;
+
+}
+
+#int-no {
+    display: inline-block;
+    position: relative;
+    margin: 2%;
+    width: 25%;
+    text-align: center;
+
+}
+
+#message
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    width: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: #ff381a;
+
+}
+
+hr
+{
+    height: 2px;
+    width: 80%;
+    color: #45afff;
+    background:transparent;
+
+}
+#msg
+{
+    min-width: 70%;
+    min-height: 100px;
+
+}
+
+input, textarea
+{
+    margin:2%;
+    font: normal 1em sans-serif;
+    width: 70%;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: auto;
+    box-shadow: #ff706d;
+    background-color: rgba(255, 141, 128, 0.24);
+
+}
+
+input:focus, textarea:focus
+{
+    border-color: #ff706d;
+}
+
+button
+{
+    margin: 2%;
+    padding: 2%;
+    width: auto;
+    border-radius: 1.5em;
+
+}
+
+#submit
+{
+    display: inline-block;
+    position: relative;
+    margin: 2%;
+    width: 44%;
+    text-align: center;
+
+}
+
+#reset
+{
+    display: inline-block;
+    position: relative;
+    margin: 2%;
+    width: 44%;
+    text-align: center;
+}
+
+
+
+
+
