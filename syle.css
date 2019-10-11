@@ -110,7 +110,6 @@ h1
     font-family: 'Cabin', sans-serif;
     font-weight: bold;
     text-decoration: underline;
-    color: #ff381a;
     font-size: x-large;
 }
 
@@ -176,8 +175,7 @@ ul
 
 .bouton
 {
-    color:#0000ff;
-    font-size:24px;
+    color:#ff381a;
     cursor:pointer;
 }
 .bouton:hover

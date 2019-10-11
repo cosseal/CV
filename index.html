@@ -26,8 +26,7 @@
 </div>
 
 <div class="contenu">
-    <h1 > EXPERIENCES PROFESSIONNELLES</h1>
-    <span class="bouton" id="bouton_texte" onclick="javascript:afficher_cacher('texte');">Afficher le texte</span>
+    <h1 class="bouton" id="bouton_texte" onclick="javascript:afficher_cacher('texte');" > EXPERIENCES PROFESSIONNELLES</h1>
     <div id="texte" class="text">
         <ul>
             <li> <span class="gras">Depuis 2017</span> : massothérapeuthe.</li>
@@ -43,14 +42,11 @@
                 un site touristique à Couvin.</li>
         </ul>
     </div>
-    <script type="text/javascript">
-        //<!--
-        afficher_cacher('texte');
-        //-->
-    </script>
 
 
-    <h1> FORMATIONS</h1>
+
+    <h1 class="bouton" id="bouton1_texte1" onclick="javascript:afficher_cacher('texte1');"> FORMATIONS</h1>
+    <div id="texte1" class="text">
         <ul>
             <li><span class="gras">2019-2020</span> : Bac+2 (en cours) - développeur web -
                 Up To Fourmies.</li>
@@ -82,7 +78,12 @@
             <li><span class="gras">1995-2000</span> : Master - Langues et littératures classiques
                 - ULB.</li>
         </ul>
-    <h1> COMPETENCES</h1>
+    </div>
+
+
+
+    <h1 class="bouton" id="bouton2_texte2" onclick="javascript:afficher_cacher('texte2');"> COMPETENCES</h1>
+    <div id="texte2" class="text">
         <h2>Informatiques</h2>
             <ul>
                 <li>Suite <span class="gras">MS Office</span> et équivalent en logiciel libre.</li>
@@ -115,6 +116,7 @@
                 <li>Techniques de fouilles.</li>
                 <li></li>
             </ul>
+    </div>
 
 
 </div>
@@ -182,6 +184,10 @@
 </div>
 
 
-
+<script type="text/javascript">
+    //<!--
+    afficher_cacher('texte');
+    //-->
+</script>
 </body>
 </html>

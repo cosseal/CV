@@ -1,14 +1,39 @@
+
 function afficher_cacher(id)
 {
-    if(document.getElementById(id).style.visibility=="hidden")
+    if(document.getElementById(id).style.display == "block")
     {
-        document.getElementById(id).style.visibility="visible";
-        document.getElementById('bouton_'+id).innerHTML='Cacher le texte';
+        document.getElementById(id).style.display = "none";
+        document.getElementById('bouton_'+id).innerHTML='EXPERIENCES PROFESSIONNELLES';
     }
-    else
+    else{
+        document.getElementById(id).style.display = "block";
+        document.getElementById('bouton_'+id).innerHTML='EXPERIENCES PROFESSIONNELLES';
+    }
+}
+
+function afficher_cacher(id)
+{
+    if(document.getElementById(id).style.display == "block")
     {
-        document.getElementById(id).style.visibility="hidden";
-        document.getElementById('bouton_'+id).innerHTML='Afficher le texte';
+        document.getElementById(id).style.display = "none";
+        document.getElementById('bouton1_'+id).innerHTML='FORMATIONS';
     }
-    return true;
+    else{
+        document.getElementById(id).style.display = "block";
+        document.getElementById('bouton1_'+id).innerHTML='FORMATIONS';
+    }
+}
+
+function afficher_cacher(id)
+{
+    if(document.getElementById(id).style.display == "block")
+    {
+        document.getElementById(id).style.display = "none";
+        document.getElementById('bouton2_'+id).innerHTML='COMPETENCES';
+    }
+    else{
+        document.getElementById(id).style.display = "block";
+        document.getElementById('bouton2_'+id).innerHTML='COMPETENCES';
+    }
 }
